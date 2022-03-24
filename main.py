@@ -1,3 +1,4 @@
+#Konzolová kalkulačka bez vytvorených funkcií. Vetvenie pomocou podmienok, riešenie kalkulačky riešené ľahko cez podmienky a inputy. 
 import math
 while True:
  
