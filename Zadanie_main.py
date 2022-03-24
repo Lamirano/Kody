@@ -1,3 +1,4 @@
+#Porovananie dvoch intov a zistenie koľko nám ostáva do vysnenej sumy.
 vysnena_cena=int(input("Zadajte vasu sumu :"))
 list_of_money=[input("Zadajte sumu vasho vyberu :")]
 
