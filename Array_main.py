@@ -1,3 +1,4 @@
+#Práca s poľom.
 def company_names_of_employes():
   for employee in kebab:
     print(employee["Firstname"],employee["Surname"])
