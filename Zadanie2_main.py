@@ -1,3 +1,5 @@
+#Tento program slúži na nahradenie písmen definovaných pomocou riadku 19, ak napíšeme vetu ktorá ma menej znakov než 20 tak nas program upozorní že sme urobili chybu ak ju znovu zopakujeme, tak sa vypne. 
+#Nasledne program ak napíšeme nad 20 znakov vykoná svoju ulohu a nahradí dané pisemná a nakonci nam vypiše danú vetu
 import time
 
 while True:
