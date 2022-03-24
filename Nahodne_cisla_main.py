@@ -1,3 +1,4 @@
+#Využitie importu randint na pád nahodneho čisla. 
 from random import randint
 u=0
 g=int(input("Zadajte počet hodov : "))
