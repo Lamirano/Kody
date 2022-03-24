@@ -1,3 +1,4 @@
+#Počet náhodny čisel ktoré spadnú na kocke.
 from random import randint
 subor=open("omega.txt","a")
 u=0
