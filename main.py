@@ -1,3 +1,6 @@
+#Tento prográm sa zaoberá vypočtom veku, importujeme čas a následne do cyklu while True píšeme kod. While true nás slúži na opakovanie a print('\x1bc') na vymazavanie obrazovky.
+#Program začína jednoduchou voľbou či si prajeme pokračovať alebo nie, môžeme vidieť že v podmienkách máme definované vekové rozpätia. Program následne pracuje s týmito dátami a vypočíta tri veci
+#a to vek uživateľa, koľko im zostáva do dôchodku rokov a taktiež vekovú kategoriu. Time sleep nam slúži na zamrazenia obrazovky aby sa nepremazala rýchlo.  
 import time
 while True:
   print('\x1bc')
