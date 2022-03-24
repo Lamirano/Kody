@@ -1,3 +1,6 @@
+#Prokročilejšia kalkulačka v ktorej si vytvoríme fukncie, následne tieto funkcie voláme ked sa splní nejaká podmienka. 
+
+  
 import math 
 import time 
 def adding(): 
