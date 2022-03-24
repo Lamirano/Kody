@@ -1,4 +1,4 @@
-
+#Prográm na zistenie parného alebo neparného číšla. 
 def strange_reverse(seq, condition):
   mainlist=[]
   if condition == "odd":
