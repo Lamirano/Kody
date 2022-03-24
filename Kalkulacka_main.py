@@ -1,3 +1,4 @@
+#Jednoducha konzolová kalkulačka pri ktorej sa nevyužívajú definované funkcie, ale jednochuche inputy a taktiež vetvíme pomocou podmienok. Import math využíjeme na import matematických funkcií.
 import math
 while True:
  
