@@ -1,3 +1,5 @@
+#Vytvaramé vlastné zoznam vytvorí sa naám nový textovy súbor do ktorého budeme zapísovať dane veci uživateľa.
+
 import time
 def list_add(x,y):
   x.append(y)
