@@ -1,4 +1,4 @@
-
+# V tomto kode sa zaoberamé rodnými čislami zisťujeme ich validitu a taktiež prepočítavame kalvini na farenhaita a naopak.
 cislo= int(input("Zadajte cislo :"))
 if(cislo%3 == 0 and cislo%10 == 8 ):
   print("Cislo je delitelne 3")
