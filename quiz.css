@@ -1,6 +1,6 @@
 *, *::before, *::after {
-    box-sizing: border-box;
-    font-family: Gotham Rounded;
+    box-sizing:content-box;
+       font-family: Gotham Rounded;
 }
 
 :root {
@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color:navajowhite;
+    
 }
 
 
@@ -28,6 +29,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+   
 }
 
 .btn-grid {
@@ -64,7 +66,7 @@ body {
     display: none;
 }
 .scoreboard {
-    display: flex;
+    display:grid;
     width: 800px;
     max-width: 80%;
     background-color: white;
@@ -75,11 +77,19 @@ body {
     justify-content:center;
 }
 .h2 {
-    display: flex;
+    display:unset;
+    align-content:center;
+    justify-content:center
 }
 .btn.correct {
     background-color:green;
 }
 .btn.wrong {
     background-color: red;
+}
+.img{
+    display: none;
+}
+.h3 {
+    display: none;
 }
