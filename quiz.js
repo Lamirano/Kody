@@ -6,7 +6,9 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 const QuizContainer = document.getElementById('scoreboard')
 const ScoreBoardButton = document.getElementById('score')
 const TlacidloHodnotenia = document.getElementById('hodnotenie')
-
+const KoniecTlac=document.getElementById('koniec')
+const container = document.getElementById('container')
+const header = document.getElementById('headerkonec')
 var correctAnswers = 0
 
 
@@ -37,6 +39,17 @@ function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
+function show() {
+    header.classList.remove('hide')
+    container.classList.add('hide')
+    KoniecTlac.classList.add('hide')
+    QuizContainer.classList.add('hide')
+    ScoreBoardButton.classList.add('hide')
+    questionContainerElement.classList.add('hide')
+    questionElement.classList.add('hide')
+    TlacidloHodnotenia.classList.add('hide')
+    image.classList.removwe('hide')
+  }
     
     
 function showQuestion(question) {
@@ -92,6 +105,7 @@ function Hodnotenie() {
     questionContainerElement.classList.add('hide')
     questionElement.classList.add('hide')
     TlacidloHodnotenia.classList.add('hide')
+    KoniecTlac.classList.remove('hide')
 }
 function setStatusClass(element, correct) {
     clearStatusClass(element)
