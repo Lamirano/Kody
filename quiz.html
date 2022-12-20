@@ -9,7 +9,7 @@
     <title>Quiz App</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <div id="question-container" class="hide">
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
@@ -26,12 +26,14 @@
             
             
         </div>
+
         <div class="controls">
             <button id="start-btn" class="start-btn btn">Spustenie kontrolných otázok</button>
             <button id="next-btn" class="next-btn btn hide">Daľšia otázka</button>
             <button id="hodnotenie" class="hodnotenie-btn btn hide" onclick="Hodnotenie()">Vyhodnotenie</button>
+            <button id="koniec" class="koniec-btn btn hide" onclick="show()">Kliknite na ukončenie lekcie</button>
         </div>
     </div>
-
+    <h3 class="hide" id="headerkonec">Koniec lekcie</h3>
 </body>
 </html>
